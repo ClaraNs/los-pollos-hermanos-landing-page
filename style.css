@@ -33,7 +33,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #F8D12F;
+    background-color: #F4F4F9;
     position: fixed;
     padding-left: 0rem; /*Era 30*/
 }
@@ -67,7 +67,7 @@ html{
 
 .content .list-menu li a{
     padding: 3rem 2rem 1rem 1 rem;
-    color: black; /*#D62828;*/
+    color: #D62828; /*#D62828;*/
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -140,4 +140,54 @@ html{
     display: flex;
     justify-content: space-between;
    
+}
+
+/* Sobre nos*/
+
+.sobre-nos{
+    background-color: #F4F4F9;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-sobre {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 10rem;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-sobre h2{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color:#1A57A6;
+}
+
+.content-sobre p{
+    width: 600px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.highlight{
+    color: #D62828;
+    font-weight: bold;
 }
